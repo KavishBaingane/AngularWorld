@@ -2,5 +2,9 @@
 <button class="bt btn-primary"
      
  [disabled]="allowNewServer">Add server</button>
+ <p [innerText]="allowNewServer"></p>
 <app-server></app-server>
 <app-server></app-server>
+
+<!-- if you want to print someting on the html use string interpolation 
+if you want to change the value then use property binding -->
