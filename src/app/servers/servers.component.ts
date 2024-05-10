@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   //selector: '[app-servers]',
   //select by class downwarss
-  selector:'.app-server',
+  selector:'.app-servers',
   //templateUrl: './servers.component.html',
   template:`<app-server></app-server>
              <app-server></app-server>`,
