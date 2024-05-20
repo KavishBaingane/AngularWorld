@@ -22,6 +22,8 @@ describe('AppComponent', () => {
   //   expect(app.title).toEqual('AngularWorld');
   // });
 
+  //chekcing whether it goes o github myacc 
+
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
