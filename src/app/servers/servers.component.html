@@ -13,8 +13,8 @@
  <!-- <p [innerText]="allowNewServer"></p> -->
   <!-- <p>{{serverCreationStatus}}</p> -->
  <p *ngIf="serverCReated">Server was created , server name is {{serverName}}</p>
-<app-server></app-server>
-<app-server></app-server>
+<app-server *ngFor="let server of servers"></app-server>
+
 
 <!-- if you want to print someting on the html use string interpolation 
 if you want to change the value then use property binding -->
